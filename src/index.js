@@ -1,4 +1,3 @@
-import "./styles.css";
 const data = require("../data/koenawin.json");
 
 /**
