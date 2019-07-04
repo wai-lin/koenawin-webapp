@@ -25,7 +25,7 @@ body {
   width: 90%;
   padding: 10px 15px;
   text-align: center;
-  background: #7e57c2;
+  background: #c2185b;
   text-transform: uppercase;
   color: #fff;
   border: 0;
@@ -36,7 +36,7 @@ body {
 
 .menu-btn:hover {
   transition: ease-in-out 0.3s;
-  background: #673ab7;
+  background: #c2185b;
 }
 
 .menu {
@@ -48,12 +48,13 @@ body {
 
 .step {
   margin: 0;
+  margin-top: 10px;
   padding: 5px 15px;
   font-weight: normal;
   color: #fff;
-  background: #9575cd;
+  background: #f06292;
   border: 0;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .day {
@@ -64,7 +65,7 @@ body {
   text-decoration: none;
   color: #343434;
   border: 0;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 .day:hover {
@@ -73,7 +74,7 @@ body {
 }
 
 .counter {
-  margin: 80px;
+  margin: 100px;
   text-align: center;
 }
 
