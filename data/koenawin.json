@@ -1,0 +1,518 @@
+{
+  "format": {
+    "setp#": {
+      "day#": {
+        "title": "String",
+        "countLoop": "Int",
+        "isVegetarianDay": "boolean",
+        "day": "string [ monday, tuesday, ... , sunday ]"
+      }
+    }
+  },
+  "data": {
+    "step1": {
+      "day1": {
+        "title": "သမ္မာသမ္ဗဒ္ဓေါ",
+        "countLoop": 2,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day2": {
+        "title": "ဘဂဝါ",
+        "countLoop": 9,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      },
+      "day3": {
+        "title": "သုဂတော",
+        "countLoop": 4,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day4": {
+        "title": "သတ္တာဒေဝ မနုသာနံ",
+        "countLoop": 7,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      },
+      "day5": {
+        "title": "လောကဝိဒူ",
+        "countLoop": 5,
+        "isVegetarianDay": true,
+        "day": "friday"
+      },
+      "day6": {
+        "title": "ဝိဇ္ဇာစရဏ သမ္ပန္နော",
+        "countLoop": 3,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      },
+      "day7": {
+        "title": "အနုတ္တရော ပုရိသဓမ္မသာရထိ",
+        "countLoop": 6,
+        "isVegetarianDay": false,
+        "day": "sunday"
+      },
+      "day8": {
+        "title": "အရဟံ",
+        "countLoop": 1,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day9": {
+        "title": "ဗုဒ္ဓေါ",
+        "countLoop": 8,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      }
+    },
+    "step2": {
+      "day1": {
+        "title": "ဝိဇ္ဇာစရဏ သမ္ပန္နော",
+        "countLoop": 3,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day2": {
+        "title": "အရဟံ",
+        "countLoop": 1,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      },
+      "day3": {
+        "title": "လောကဝိဒူ",
+        "countLoop": 5,
+        "isVegetarianDay": false,
+        "day": "friday"
+      },
+      "day4": {
+        "title": "ဗုဒ္ဓေါ",
+        "countLoop": 8,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      },
+      "day5": {
+        "title": "အနုတ္တရော ပုရိသဓမ္မသာရထိ",
+        "countLoop": 6,
+        "isVegetarianDay": true,
+        "day": "sunday"
+      },
+      "day6": {
+        "title": "သုဂတော",
+        "countLoop": 4,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day7": {
+        "title": "သတ္တာဒေဝ မနုသာနံ",
+        "countLoop": 7,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      },
+      "day8": {
+        "title": "သမ္မာသမ္ဗဒ္ဓေါ",
+        "countLoop": 2,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day9": {
+        "title": "ဘဂဝါ",
+        "countLoop": 9,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      }
+    },
+    "step3": {
+      "day1": {
+        "title": "သုဂတော",
+        "countLoop": 4,
+        "isVegetarianDay": false,
+        "day": "friday"
+      },
+      "day2": {
+        "title": "သမ္မာသမ္ဗဒ္ဓေါ",
+        "countLoop": 2,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      },
+      "day3": {
+        "title": "အနုတ္တရော ပုရိသဓမ္မသာရထိ",
+        "countLoop": 6,
+        "isVegetarianDay": false,
+        "day": "sunday"
+      },
+      "day4": {
+        "title": "ဘဂဝါ",
+        "countLoop": 9,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day5": {
+        "title": "သတ္တာဒေဝ မနုသာနံ",
+        "countLoop": 7,
+        "isVegetarianDay": true,
+        "day": "tuesday"
+      },
+      "day6": {
+        "title": "လောကဝိဒူ",
+        "countLoop": 5,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day7": {
+        "title": "ဗုဒ္ဓေါ",
+        "countLoop": 8,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      },
+      "day8": {
+        "title": "ဝိဇ္ဇာစရဏ သမ္ပန္နော",
+        "countLoop": 3,
+        "isVegetarianDay": false,
+        "day": "friday"
+      },
+      "day9": {
+        "title": "အရဟံ",
+        "countLoop": 1,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      }
+    },
+    "step4": {
+      "day1": {
+        "title": "လောကဝိဒူ",
+        "countLoop": 5,
+        "isVegetarianDay": false,
+        "day": "sunday"
+      },
+      "day2": {
+        "title": "ဝိစ္စာစရဏ သမ္ပန္နော",
+        "countLoop": 3,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day3": {
+        "title": "သတ္တာဒေဝ မနုသာနံ",
+        "countLoop": 7,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      },
+      "day4": {
+        "title": "အရဟံ",
+        "countLoop": 1,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day5": {
+        "title": "ဗုဒ္ဓေါ",
+        "countLoop": 8,
+        "isVegetarianDay": true,
+        "day": "thursday"
+      },
+      "day6": {
+        "title": "အနုတ္တရော ပုရိသဓမ္မသာရထိ",
+        "countLoop": 6,
+        "isVegetarianDay": false,
+        "day": "friday"
+      },
+      "day7": {
+        "title": "ဘဂဝါ",
+        "countLoop": 9,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      },
+      "day8": {
+        "title": "သုဂတော",
+        "countLoop": 4,
+        "isVegetarianDay": false,
+        "day": "sunday"
+      },
+      "day9": {
+        "title": "သမ္မာသမ္ဗဒ္ဓေါ",
+        "countLoop": 2,
+        "isVegetarianDay": false,
+        "day": "monday"
+      }
+    },
+    "step5": {
+      "day1": {
+        "title": "အနုတ္တရော ပုရိသဓမ္မသာရထိ",
+        "countLoop": 6,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      },
+      "day2": {
+        "title": "သုဂတော",
+        "countLoop": 4,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day3": {
+        "title": "ဗုဒ္ဓေါ",
+        "countLoop": 8,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      },
+      "day4": {
+        "title": "သမ္မာသမ္ဗဒ္ဓေါ",
+        "countLoop": 2,
+        "isVegetarianDay": false,
+        "day": "friday"
+      },
+      "day5": {
+        "title": "ဘဂဝါ",
+        "countLoop": 9,
+        "isVegetarianDay": true,
+        "day": "saturday"
+      },
+      "day6": {
+        "title": "သတ္တာဒေဝ မနုသာနံ",
+        "countLoop": 7,
+        "isVegetarianDay": false,
+        "day": "sunday"
+      },
+      "day7": {
+        "title": "အရဟံ",
+        "countLoop": 1,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day8": {
+        "title": "လောကဝိဒူ",
+        "countLoop": 5,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      },
+      "day9": {
+        "title": "ဝိဇ္ဇာစရဏ သမ္ပန္နော",
+        "countLoop": 3,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      }
+    },
+    "step6": {
+      "day1": {
+        "title": "သတ္တာဒေဝ မနုသာနံ",
+        "countLoop": 7,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      },
+      "day2": {
+        "title": "လောကဝိဒူ",
+        "countLoop": 5,
+        "isVegetarianDay": false,
+        "day": "friday"
+      },
+      "day3": {
+        "title": "ဘဂဝါ",
+        "countLoop": 9,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      },
+      "day4": {
+        "title": "ဝိဇ္ဇာစရဏ သမ္ပန္နော",
+        "countLoop": 3,
+        "isVegetarianDay": false,
+        "day": "sunday"
+      },
+      "day5": {
+        "title": "အရဟံ",
+        "countLoop": 1,
+        "isVegetarianDay": true,
+        "day": "monday"
+      },
+      "day6": {
+        "title": "ဗုဒ္ဓေါ",
+        "countLoop": 8,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      },
+      "day7": {
+        "title": "သမ္မာသမ္ဗဒ္ဓေါ",
+        "countLoop": 2,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day8": {
+        "title": "အနုတ္တရော ပုရိသဓမ္မသာရထိ",
+        "countLoop": 6,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      },
+      "day9": {
+        "title": "သုဂတော",
+        "countLoop": 4,
+        "isVegetarianDay": false,
+        "day": "friday"
+      }
+    },
+    "step7": {
+      "day1": {
+        "title": "ဗုဒ္ဓေါ",
+        "countLoop": 8,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      },
+      "day2": {
+        "title": "အနုတ္တရော ပုရိသဓမ္မသာရထိ",
+        "countLoop": 6,
+        "isVegetarianDay": false,
+        "day": "sunday"
+      },
+      "day3": {
+        "title": "အရဟံ",
+        "countLoop": 1,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day4": {
+        "title": "သုဂတော",
+        "countLoop": 4,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      },
+      "day5": {
+        "title": "သမ္မာသမ္ဗဒ္ဓေါ",
+        "countLoop": 2,
+        "isVegetarianDay": true,
+        "day": "wednesday"
+      },
+      "day6": {
+        "title": "ဘဂဝါ",
+        "countLoop": 9,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      },
+      "day7": {
+        "title": "ဝိဇ္ဇာစရဏ သမ္ပန္နော",
+        "countLoop": 3,
+        "isVegetarianDay": false,
+        "day": "friday"
+      },
+      "day8": {
+        "title": "သတ္တာဒေဝ မနုသာနံ",
+        "countLoop": 7,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      },
+      "day9": {
+        "title": "လောကဝိဒူ",
+        "countLoop": 5,
+        "isVegetarianDay": false,
+        "day": "sunday"
+      }
+    },
+    "step8": {
+      "day1": {
+        "title": "ဘဂဝါ",
+        "countLoop": 9,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day2": {
+        "title": "သတ္တာဒေဝ မနုသာနံ",
+        "countLoop": 7,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      },
+      "day3": {
+        "title": "သမ္မာသမ္ဗဒ္ဓေါ",
+        "countLoop": 2,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day4": {
+        "title": "လောကဝိဒူ",
+        "countLoop": 5,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      },
+      "day5": {
+        "title": "ဝိဇ္ဇာစရဏ သမ္ပန္နော",
+        "countLoop": 3,
+        "isVegetarianDay": true,
+        "day": "friday"
+      },
+      "day6": {
+        "title": "အရဟံ",
+        "countLoop": 1,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      },
+      "day7": {
+        "title": "သုဂတော",
+        "countLoop": 4,
+        "isVegetarianDay": false,
+        "day": "sunday"
+      },
+      "day8": {
+        "title": "ဗုဒ္ဓေါ",
+        "countLoop": 8,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day9": {
+        "title": "အနုတ္တရော ပုရိသဓမ္မသာရထိ",
+        "countLoop": 6,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      }
+    },
+    "step9": {
+      "day1": {
+        "title": "အရဟံ",
+        "countLoop": 1,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day2": {
+        "title": "ဗုဒ္ဓေါ",
+        "countLoop": 8,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      },
+      "day3": {
+        "title": "ဝိဇ္ဇာစရဏ သမ္ပန္နော",
+        "countLoop": 3,
+        "isVegetarianDay": false,
+        "day": "friday"
+      },
+      "day4": {
+        "title": "အနုတ္တရော ပုရိသဓမ္မသာရထိ",
+        "countLoop": 6,
+        "isVegetarianDay": false,
+        "day": "saturday"
+      },
+      "day5": {
+        "title": "သုဂတော",
+        "countLoop": 4,
+        "isVegetarianDay": true,
+        "day": "sunday"
+      },
+      "day6": {
+        "title": "သမ္မာသမ္ဗဒ္ဓေါ",
+        "countLoop": 2,
+        "isVegetarianDay": false,
+        "day": "monday"
+      },
+      "day7": {
+        "title": "လောကဝိဒူ",
+        "countLoop": 5,
+        "isVegetarianDay": false,
+        "day": "tuesday"
+      },
+      "day8": {
+        "title": "ဘဂဝါ",
+        "countLoop": 9,
+        "isVegetarianDay": false,
+        "day": "wednesday"
+      },
+      "day9": {
+        "title": "သတ္တာဒေဝ မနုသာနံ",
+        "countLoop": 7,
+        "isVegetarianDay": false,
+        "day": "thursday"
+      }
+    }
+  }
+}
